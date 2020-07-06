@@ -161,5 +161,13 @@ function sqrt()
     var i = document.getElementById("result").value;
     var j = Math.sqrt(i)
     document.getElementById("result").value = j;
+  return result;
 
+}
+funtion ab()
+{
+    var i = document.getElementById("result").value;
+    var j = Math.abs(i)
+     document.getElementById("result").value = j;
+  return result;
 }
